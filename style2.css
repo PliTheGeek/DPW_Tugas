@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(#ffffff, white);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.header {
+  background-color: #0254db;
+  line-height: 300%;
+  padding: 25px;
+  width: auto;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.logo {
+  color: white;
+  font-size: 220%;
+  font-weight: 900;
+  margin-left: 5%;
+}
+
+/*  HEADER LOGO CLOSE */
+
+.navheader {
+  background-color: #3b79e3;
+  line-height: 10%;
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  height: 10px;
+}
+
+.navheader ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navheader a {
+  font-size: larger;
+  font-weight: 900;
+  color: white;
+}
+
+.navheader .navmenu {
+  float: left;
+  margin-left: 5%;
+  margin-top: -15px;
+}
+
+.navheader .navregister {
+  margin-right: 200px;
+  margin-top: -15px;
+  float: right;
+}
+
+.navheader .navlogin {
+  margin-right: 100px;
+  margin-top: -15px;
+  float: right;
+}
+
+.Nav a {
+  text-decoration: none;
+  margin-top: 1%;
+}
+/* HEADER LINK CLOSE */
+/*  */
+/* FORMULIR KIRI*/
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  box-shadow: 2px 2px 4px #0000;
+}
+
+.kolomkiri {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  float: left;
+  margin-top: 2%;
+  margin-left: 10%;
+  border-radius: 2%;
+  background-color: whitesmoke;
+  width: 40%;
+  height: 65vh;
+}
+
+.formkiri {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  width: 600px;
+  margin: 30px auto;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  box-shadow: 2px 2px 4px #0000;
+  color: white;
+}
+
+#id {
+  height: 23px;
+  border-radius: 3px;
+  border: 0;
+  outline: none;
+}
+
+.form_id {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 600px;
+  margin: 30px auto;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.form_fields {
+  margin: 10px;
+}
+
+#alamat {
+  resize: none;
+}
+
+.b_daftar_batal a {
+  background-color: #0055ff;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.txtfooter {
+  text-align: center;
+  color: #0254db;
+  font-size: 25px;
+  font-weight: 1000;
+  margin-top: 0px;
+}
